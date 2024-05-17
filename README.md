@@ -39,9 +39,19 @@ uvicorn app:app --reload
 
 ```
 docker build -t bleed-ai .
-
 docker run -p 8000:8000 bleed-ai
-
 ```
+
+# Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/my-feature`).
+5. Create a new Pull Request.
+
+
+
+
 
 
